@@ -1,3 +1,4 @@
+# Create A Dead Simple Twitter Feed with jQuery + PHP + OAuth
 This is an old post that I created long time ago, but it hasn't been updated ever since Twitter moved on from the old API. Now I decided to spend some time to fine tune it and added a layer of PHP with OAuth authentication to retrieve tweets. I also added the capability to display media for the tweet.
 
 To retrieve tweets from user timeline, we will be using statuses/user_timeline public API from Twitter. To make the OAuth authentication painless, we're using this third party PHP-Twitter API wrapper caled Twitter for PHP.
